@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="page__wrapper">
+      <!--page header-->
+      <header class="header">
+        <figure class="header__image">
+          <img
+            class="header__image--logo"
+            src="./images/logo.svg"
+            alt="snap comapny logo"
+          />
+        </figure>
+        <!--page navigation-->
+        <nav class="navigation">
+          <!--page image close icon-->
+          <figure class="navigation__image-wrapper">
+            <img
+              class="navigation__close-menu"
+              src="./images/icon-close-menu.svg"
+              alt="snap comapny logo"
+            />
+          </figure>
+          <!--navigation -->
+          <ul class="navigation__list">
+            <li class="navigation__items">
+              <a class="arrow" href="#">Features</a>
+              <!--drop down list -->
+              <ul class="navigation__drop-list">
+                <li class="drop-list__items">
+                  <img src="./images/icon-todo.svg" alt="todo-icon" />
+                  <a href="#">Todo List</a>
+                </li>
+                <li class="drop-list__items">
+                  <img src="./images/icon-calendar.svg" alt="calendar-icon" />
+                  <a href="#">Calendar</a>
+                </li>
+                <li class="drop-list__items">
+                  <img src="./images/icon-reminders.svg" alt="reminder-icon" />
+                  <a href="#">Reminder</a>
+                </li>
+
+                <li class="drop-list__items">
+                  <img src="./images/icon-planning.svg" alt="planning-icon" />
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation__items">
+              <a class="arrow" href="#">Company</a>
+              <!--drop down list -->
+              <ul class="navigation__drop-list">
+                <li class="drop-list__items">
+                  <a href="#">History</a>
+                </li>
+                <li class="drop-list__items">
+                  <a href="#">Our Team</a>
+                </li>
+                <li class="drop-list__items">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navigation__items"><a href="#">Careers</a></li>
+            <li class="navigation__items"><a href="#">About</a></li>
+          </ul>
+          <ul class="navigation__list navigation__list--login">
+            <li class="list-item"><a href="#">Login</a></li>
+            <li class="list-item"><a href="#">Register</a></li>
+          </ul>
+        </nav>
+        <figure class="header__image">
+          <img
+            class="header__image--close"
+            src="./images/icon-menu.svg"
+            alt="close menu icon"
+          />
+        </figure>
+      </header>
+      <main class="main">
+        <section class="main__hero">
+          <img src="./images/image-hero-mobile.png" alt="hero image" />
+        </section>
+        <section class="main__content">
+          <h1 class="main__content--title">Make remote work</h1>
+          <p class="main__content--description">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+
+          <button class="main__content--btn">Learn more</button>
+          <!--footer-->
+          <footer class="footer">
+            <ul class="footer__list">
+              <li>
+                <img src="./images/client-databiz.svg" alt="company logo" />
+              </li>
+              <li>
+                <img src="./images/client-audiophile.svg" alt="company logo" />
+              </li>
+              <li>
+                <img src="./images/client-meet.svg" alt="company logo" />
+              </li>
+              <li>
+                <img src="./images/client-maker.svg" alt="company logo" />
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </main>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
